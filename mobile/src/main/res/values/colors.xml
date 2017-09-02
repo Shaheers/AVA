@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="white1">#eee</color>
+    <color name="light_white">#ddd</color>
+    <color name="black">#000</color>
+    <color name="black1">#111</color>
+    <color name="light_black">#333</color>
+    <color name="dark_gray">#666</color>
+    <color name="gray">#888</color>
+    <color name="light_gray">#999</color>
+    <color name="yellow">#ffd600</color>
+    <color name="semi_trans">#50000000</color>
+    <color name="loading_picasso">#B4B4B4</color>
+    <color name="chat_toolbar">#00bcd4</color>
+    <color name="fr_p1">#FF8A80</color>
+    <color name="fr_p2">#00BFA5</color>
+    <color name="fr_p3">#FFAB40</color>
+    <color name="fr_p4">#40C4FF</color>
+    <color name="fr_p5">#546E7A</color>
+    <color name="fr_p6">#00C853</color>
+    <color name="fab_fr">#E53935</color>
+    <color name="card_chat_user">#E0E8A0</color>
+    <color name="card_color">#C1DDFF</color>
+    <color name="reg">#FF9800</color>
+    <color name="login">#4BAD4F</color>
+    <color name="logout">#F44336</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="default_theme_green_dark">#009688</color>
+    <color name="default_theme_green">#80CBC4</color>
+    <color name="fab_fr1">#C0CA33</color>
+</resources>

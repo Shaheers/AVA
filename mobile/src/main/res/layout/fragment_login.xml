@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditText_theme">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/email_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/eml1"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditText_theme">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/password_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pass"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="4dp"
+        >
+        <Button
+            android:onClick="onClick"
+            android:id="@+id/cont_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/cont"
+            android:background="@color/login" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="4dp"
+        >
+        <Button
+            android:onClick="onClick"
+            android:id="@+id/forgot_p_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/forgot_p"
+            android:background="@color/gray" />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
