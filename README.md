@@ -7,4 +7,4 @@ More info will be updated soon....
 
 Status: ALPHA
 Screenshot: 
-![ScreenShot](/screenshots/latest.png)
+<img src="/Images/device-2017-09-02-145457.png?raw=true" width="480" height="640" />
