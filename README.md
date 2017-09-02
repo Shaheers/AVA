@@ -7,4 +7,5 @@ More info will be updated soon....
 
 Status: ALPHA
 Screenshot: 
-<img src="/Images/device-2017-09-02-145457.png?raw=true" width="480" height="640" />
+
+<img src="/Images/device-2017-09-02-145457.png?raw=true" width="480" height="720" />
